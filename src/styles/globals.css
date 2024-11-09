@@ -24,9 +24,15 @@ body {
   background-color: rgb(10,10,10);
 }
 .navbar .nav-link.nav-link-white {
-  color:rgb(255, 255, 255)
+  color:rgb(255, 255, 255);
+  font-size: 14px;
+  
 }
 
+.drop-elemento{
+  padding: 100px;
+  font-size: 13px;
+}
 .navbar .nav-link.nav-link-white:hover {
   color:rgb(200, 200, 200)
 }
