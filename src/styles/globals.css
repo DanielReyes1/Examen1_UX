@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 
 :root {
-  --background: #ffffff;
+  background: black;
   --foreground: #171717;
 }
 
@@ -36,3 +38,5 @@ body {
 .navbar .nav-link.nav-link-white:hover {
   color:rgb(200, 200, 200)
 }
+
+
