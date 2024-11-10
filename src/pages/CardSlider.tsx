@@ -31,8 +31,8 @@ const Carousel = () => {
   };
 
   return (
-    <div className="carousel-container">
-       <h2>Recomendado para ti</h2> 
+    <div className="carousel-container" style={{backgroundColor:"rgb(10,10,10)"}}>
+       <p>Recomendado para ti</p> 
        
       <Slider {...settings}>
         {}
