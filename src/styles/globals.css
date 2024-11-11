@@ -23,8 +23,17 @@ body {
 }
 
 .navbar{
-  background-color: rgb(10,10,10);
+  background-color: transparent;
 }
+.navbar {
+  background-color: transparent; /* Color por defecto */
+}
+
+.navbar.scrolled {
+  background-color: rgb(10,10,10);
+  transition: background-color 0.3s;
+}
+
 .navbar .nav-link.nav-link-white {
   color:rgb(255, 255, 255);
   font-size: 14px;
@@ -39,9 +48,122 @@ body {
   color:rgb(200, 200, 200)
 }
 
+.main-image{
+  width: 100%;
+  display: block;
+}
+.image-container {
+  position: relative;
+  width: auto; 
+  max-width: 2600px; 
+  
+}
+.sobre-image {
+  position: absolute;
+  top: 25%; 
+  right: 60%;
+  color: white; 
+  padding-left: 5%;
+}
+.text-image p{
+  width:140%;
+  position: absolute;
+  top: 100%; 
+  left: 10%; 
+  font-Size: 18px;
+}
+@media (max-width: 1100px) {
+  .text-image p{
+    font-size: 12px; 
+    width: 180%;
+  }
+}
+@media (max-width: 900px) {
+  .text-image p {
+    font-size: 8px; 
+    width: 180%;
+    background-color: rgba(0, 0, 0, 0.323);
+  }
+}
 
+.button-image{
+  display: flex;
+  position: absolute;
+  top: 145%; 
+  left: 7%;
+  font-size: 16px;
+  height: 40px;
+  
+  
+}
+@media (max-width:848px){
+  .button-image button{
+    font-size: 10px;
+    width: 140px; 
+    height: 30px;
+    font-Weight:"600";
+  }
+}
+@media (max-width:730px){
+  .button-image button{
+    font-size: 8px;
+    width: 160px; 
+    height: 30px;
+    font-Weight:"600";
+  }
+}
+@media (max-width:500px){
+  .button-image button{
+    font-size: 6px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    height: 10px;
+    font-Weight:"600";
+  }
+}
+.etiqueta-edad {
+  background-color: rgba(81, 79, 79, 0.434);
+  border-left: 2px solid white; 
+  width: 130px;
+  text-align: center;
+  height: 30px;
+  position: absolute; 
+  font-size: 18px;
+  font-weight: 400;
+  color:white;
+  bottom: 70px;
+  right: 0px;   
+}
+@media (max-width:700px){
+  .etiqueta-edad{
+    font-size: 16px;
+  font-weight: 400;
+  color:white;
+  bottom: 30px;
+  right: 0px;   
+  width: 100px;
+  }
+}
+@media (max-width:500px){
+  .etiqueta-edad{
+    font-size: 12px;
+  font-weight: 400;
+  color:white;
+  bottom: 10px;
+  right: 0px;   
+  width: 50px;
+  height: 20px;
+  }
+}
 p{
   color:white;
   font-size: 14px;
   font-weight: 600;
+}
+footer{
+  padding-left: 100px;
+  background-color: rgb(10,10,10);
+  font-size: 12px;
+  color:rgb(128, 128, 128)
 }

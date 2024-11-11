@@ -7,6 +7,7 @@ import NavbarNetflix from "./navbar";
 //import Carrusel from "./Carrusel";
 import CardSlider from "./CardSlider";
 import Slider from "react-slick";
+import Billboard from "./billboard";
 
 
 export default function Home() {
@@ -14,8 +15,9 @@ export default function Home() {
     <>
       <link rel="icon" href="favicon.ico"/>
       <NavbarNetflix/>
-
+      <Billboard/>
       <CardSlider/>
+      <footer>© 1997-2024 Netflix, Inc.</footer>
     </>
   );
 }
