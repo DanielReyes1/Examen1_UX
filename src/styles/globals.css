@@ -158,8 +158,14 @@ body {
 }
 p{
   color:white;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
+}
+
+@media (max-width: 500px){
+  p{
+    font-size: 14px;
+  }
 }
 footer{
   padding-left: 100px;
