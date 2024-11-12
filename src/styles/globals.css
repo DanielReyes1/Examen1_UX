@@ -173,8 +173,13 @@ footer{
   font-size: 12px;
   color:rgb(128, 128, 128)
 }
-
+.footericons{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  display: flex;
+}
 .barrita{
   margin-top: 10px;
   margin-left: 25px;
+  
 }
